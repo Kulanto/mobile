@@ -61,9 +61,11 @@ h1 img {
   }
   
   .fixed-icons i {
-    font-size: 20px;
+    font-size: 30px;
     color: #333;
     margin: 10px;
+    margin-left: 10% ;
+    margin-right:10% ;
     text-align: center;
   }
   .container1{

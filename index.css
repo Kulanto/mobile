@@ -61,11 +61,10 @@ h1 img {
   }
   
   .fixed-icons i {
-    font-size: 60px;
+    font-size: 20px;
     color: #333;
     margin: 10px;
-    margin-left: 60px;
-    margin-right: 50px;
+    text-align: center;
   }
   .container1{
     display: flex;

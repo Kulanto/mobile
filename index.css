@@ -1,0 +1,117 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background-color: skyblue;
+}
+input{
+    color:#432000;
+    background-color: #DCE1EB;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px;
+}
+button{
+    color: #FDFDFD;
+    background-color: #AC485A;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    
+}
+
+    
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+/*homepage*/
+h1 img {
+    max-width: 100px;
+    margin-right: 10px;
+    
+    vertical-align: middle;
+  }
+  .fixed-icons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ddd;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .fixed-icons i {
+    font-size: 60px;
+    color: #333;
+    margin: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+  }
+  .container1{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+.butons123{
+    text-align: center;
+}
+.btn1, .btn2{
+    font-size: 20px;
+    padding: 10px;
+}
+.line {
+    border-bottom: 2px solid #4E5B31;
+    margin: 10px auto;
+    width: 95%;
+  }
+  .line1 {
+    border-bottom: 2px solid black;
+    margin: 30px auto;
+    width: 70%;
+  }
+  .user-info {
+    text-align: left;   
+    font-size: 15px;
+    font-family: Helvetica  ;
+    font-weight: bold;
+  }
+  .balance{
+    text-align: left;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Helvetica  ;
+    font-weight: bold;
+  }
+  .label{
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: Helvetica  ;
+  }
+  .account{
+    background-color: rgba(255, 255, 255, 0.3);border-radius: 10px;
+  }

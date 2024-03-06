@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cashcloud - E-Wallet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container1">
+    <h1><img src="image/1.png" alt="Cashcloud Logo">Cashcloud</h1>
+    <div class="line1"></div>
+    <div class="butons123">
+      <button class="btn1">Cash In</button>
+      <button class="btn2">Cash Out</button>
+    </div>
+    <div class="line"></div>
+    <div class="user-info">
+      <p>Name of the User</p>
+    </div>
+    <div class="account">
+      <p class="label">Balance:</p>
+      <p class="balance" id="balance">0</p>
+    </div>
+    <div class="history">
+      <p class="user-info">Transaction History:</p>
+      <div class="Transaction">
+          <p>TRANSACTION HISTORY</p>
+      </div>
+      <div class="Transaction">
+          <p>TRANSACTION HISTORY</p>
+      </div>
+      <div class="Transaction">
+          <p>TRANSACTION HISTORY</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fixed Icons Container -->
+  <div class="fixed-icons">
+      <i class="fas fa-bars" id="menuIcon"></i> <!-- Menu icon -->
+      <i class="fas fa-home"></i> <!-- Home icon -->
+      
+      <i class="fas fa-money-bill-wave"></i> <!-- Pay icon -->
+      <i class="fas fa-qrcode"></i> <!-- QR Code scanner icon -->
+  </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+<script src="index.js"></script>
+</html>
